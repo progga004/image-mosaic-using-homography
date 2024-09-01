@@ -11,7 +11,7 @@ This project demonstrates the process of creating an image mosaic using advanced
 - **Homography Matrix Computation**: Computes the homography matrix using a robust set of inliers detected through the RANSAC algorithm.
 - **Image Warping**: Warps the source image into the coordinate system of the destination image using the computed homography matrix.
 - **Image Mosaic Creation**: Creates a smooth mosaic of the source and destination images using feathering techniques for blending.
-- **Bonus**: Implementation of image mosaic blending using feathering to achieve smooth transitions between images.
+- **Feathering Technique**: Implementation of image mosaic blending using feathering to achieve smooth transitions between images.
 
 ## Getting Started
 
