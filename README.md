@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the process of creating an image mosaic using advanced computer vision techniques, including corner detection, feature matching, homography matrix computation, and image warping. The goal is to align and stitch two images seamlessly into a single panoramic mosaic, utilizing the RANSAC algorithm for robust feature matching and inlier detection. The project is a comprehensive implementation of key concepts in image processing and computer vision, showcasing my proficiency in these areas.
+This project demonstrates the process of creating an image mosaic using advanced computer vision techniques, including corner detection, feature matching, homography matrix computation, and image warping. The goal is to align and stitch two images seamlessly into a single panoramic mosaic, utilizing the RANSAC algorithm for robust feature matching and inlier detection. 
 
 ## Features
 
