@@ -22,7 +22,7 @@ Ensure you have the following dependencies installed:
 - Python 3.x
 - OpenCV
 - NumPy
-- Matplotlib (optional, for visualization)
+- Matplotlib (for visualization)
 
 ### Descriptions
 
