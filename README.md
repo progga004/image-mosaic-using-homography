@@ -23,20 +23,31 @@ Ensure you have the following dependencies installed:
 - OpenCV
 - NumPy
 - Matplotlib (optional, for visualization)
+
 ### Descriptions
 
-- **`images/`**: This directory contains input images, intermediate output images such as detected corners, patches, and the final stitched mosaic image.
-- **`finalone.py`**: This is the main script that runs the entire process of image mosaic creation, including reading images, detecting corners, extracting patches, matching features, computing homography, and stitching the images together.
-- **`cornerdetection.py`**: A module that provides functions for processing images, including Gaussian smoothing, gradient calculations, corner detection, and extraction.
-- **`README.md`**: The documentation file that provides an overview of the project, setup instructions, usage, and other details.
+- **`__pycache__/`**: Directory for Python cache files, automatically generated.
+- **`Dst_corners.jpg`**: Output image showing detected corners in the destination image.
+- **`Dst_patches.jpg`**: Output image showing patches extracted from the destination image.
+- **`Image1.jpg`**: Source image used for creating the mosaic.
+- **`Image2.jpg`**: Destination image used for creating the mosaic.
+- **`README.md`**: Documentation file that provides an overview of the project, setup instructions, usage, and other details.
+- **`Src_corners.jpg`**: Output image showing detected corners in the source image.
+- **`Src_patches.jpg`**: Output image showing patches extracted from the source image.
+- **`cornerdetection.py`**: Contains functions for image processing, including Gaussian smoothing, gradient calculations, corner detection, and extraction.
+- **`finalone.py`**: Main script that runs the entire image mosaic creation process.
+- **`inlier_matches.jpg`**: Output image showing inlier matches after applying the RANSAC algorithm.
+- **`matches.jpg`**: Output image showing initial matches between source and destination images.
+- **`stiching.jpg`**: The final stitched image output showing the completed mosaic.
 
-### Installation
+### Installation and Running the Script
 
 Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/progga004/image-mosaic-using-homography.git
 cd image-mosaic-using-homography
+python finalone.py
 
 
 
