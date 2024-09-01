@@ -31,3 +31,11 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/progga004/image-mosaic-using-homography.git
 cd image-mosaic-using-homography
+
+### Descriptions
+
+- **`images/`**: This directory contains input images, intermediate output images such as detected corners, patches, and the final stitched mosaic image.
+- **`finalone.py`**: This is the main script that runs the entire process of image mosaic creation, including reading images, detecting corners, extracting patches, matching features, computing homography, and stitching the images together.
+- **`cornerdetection.py`**: A module that provides functions for processing images, including Gaussian smoothing, gradient calculations, corner detection, and extraction.
+- **`README.md`**: The documentation file that provides an overview of the project, setup instructions, usage, and other details.
+
